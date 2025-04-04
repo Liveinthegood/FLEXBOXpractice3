@@ -1,0 +1,181 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+
+    height: 100%;
+}
+
+.nav-list {
+
+  background-color: yellow;
+  box-shadow: 0px 0px 10px;
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.nav-item {
+
+  list-style: none;
+  margin-right: 2rem;
+
+}
+
+.nav-item a {
+
+  text-decoration: none;
+  color: black;
+
+
+
+}
+
+.nav-item a:hover {
+
+  color: red;
+
+
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+  font-size: 20px;
+  
+}
+
+.btn-primary {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: rgba(201, 31, 31, 0.6);
+  color: white;
+
+}
+
+.btn-primary:hover {
+
+  background-color: aqua;
+}
+
+
+
+.Titleheader {
+
+  color: rgba(58, 66, 67, 0.739);
+  display: flex;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+  margin-top: 90px;
+  margin-bottom: 90px;
+
+
+  justify-content: center;
+}
+
+
+/* parent A */
+
+.container {
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* child to parent A */
+
+.item {
+
+  width: 200px;
+  height: 200px;
+  background-color: #3FA9F5;
+  border-radius: 3px;
+  color: #fff;
+
+text-align: center;
+
+  padding: 30px;
+  margin: 5px;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  font-size: 95px;
+
+}
+
+/* parent A */
+
+.container2 {
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+
+.item2 {
+
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 3px;
+  color: #fff;
+
+  display: flex;
+
+  padding: 30px;
+  margin: 5px;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  font-size: 55px;
+
+}
+
+/* First child to parent A */
+
+#item-one {
+
+
+color: black;
+background-color: orange;
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .nav-item:first-child {
+
+    font-size: 60px;
+    
+  }
+
+
+}
